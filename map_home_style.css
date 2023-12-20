@@ -1,0 +1,26 @@
+@import "../reg_user/navv.css";
+
+#map { 
+    height: 100vh; 
+}
+
+.leaflet-control-zoom{
+    background-color: transparent; 
+    border: none !important; 
+    border-radius: 5px; 
+}
+
+.leaflet-control-zoom a{
+    background-color: #002628; 
+    color: #fdfdfd; 
+    border: none; 
+    border-radius: 3px; 
+    font-size: 14px; 
+    margin: 6px 0;
+    box-shadow: 0 2px 4px rgba(0, 38, 40, 0.5);
+}
+
+.leaflet-control-zoom a:hover {
+    background-color: #20A2AA;
+    color: #fdfdfd;
+}
